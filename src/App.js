@@ -10,7 +10,7 @@ function App() {
           <div class="weather-app">
             <Weather />
             <div class="overview">
-              <h1 id="city"></h1>
+              <h1 id="city">Weather App</h1>
               <ul>
                 <li>
                   Last updated: Tuesday 10:00 <span id="date"></span>
@@ -49,6 +49,7 @@ function App() {
             <a
               href="https://github.com/KifilweJasmin/my-weather-app-updated"
               target="_blank"
+              rel="noreferrer"
             >
               Open-source code
             </a>

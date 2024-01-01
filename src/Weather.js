@@ -1,6 +1,4 @@
 import React from "react";
-import axios from "axios";
-import Loader from "react-loader-spinner";
 
 export default function Weather(props) {
   return (
@@ -13,7 +11,7 @@ export default function Weather(props) {
               placeholder="Enter your city..."
               class="form-control"
               id="city-input"
-              autocomplete="off"
+              autoComplete="off"
             />
           </div>
           <div class="col-3">
