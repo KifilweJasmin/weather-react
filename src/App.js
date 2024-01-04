@@ -5,9 +5,9 @@ import "./App.css";
 function App() {
   return (
     <body>
-      <div class="container">
-        <div class="weather-app-wrapper">
-          <div class="weather-app">
+      <div className="container">
+        <div className="weather-app-wrapper">
+          <div className="weather-app">
             <Weather />
             <div class="overview">
               <h1 id="city">Weather App</h1>
@@ -18,22 +18,22 @@ function App() {
                 <li id="description">Cloudy</li>
               </ul>
             </div>
-            <div class="row">
-              <div class="col-6">
-                <div class="d-flex weather-temperature">
+            <div className="row">
+              <div className="col-6">
+                <div className="d-flex weather-temperature">
                   <img
                     src="https://openweathermap.org/img/wn/04n@2x.png"
                     alt="S"
                     id="icon"
-                    class="float-left"
+                    className="float-left"
                   />
-                  <div class="float-left">
+                  <div className="float-left">
                     <strong id="temperature">19</strong>
-                    <span class="units"> °C </span>
+                    <span className="units"> °C </span>
                   </div>
                 </div>
               </div>
-              <div class="col-6">
+              <div className="col-6">
                 <ul>
                   <li>
                     Humidity: <span id="humidity">80</span> %
